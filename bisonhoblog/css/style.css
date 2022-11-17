@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-size: 1rem;
+    background-color: #e6e6e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#area-cabecalho{
+    padding: 0.9rem;
+    background-color: #f7b600;
+    text-align: center;
+}
+
+#area-logo{
+    padding: 0.7rem;
+}
+
+.logo-branco{
+    color: #fff;
+}
+/* NAV - LINK DAS ANCORAS */
+#area-menu a{
+    text-decoration: none;
+    border-radius: 0.7rem;   
+}
+#area-menu a:link, #area-menu a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+
+/* NAV - EFEITO HOVER LINK DAS ANCORAS*/
+
+#area-menu a:hover{
+    background-color: #fff;
+    color: #f7b600;
+}
+
+#area-principal{
+    width: 57.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#area-postagem{
+    width: 41.25rem;
+}
+#area-lateral{
+    width: 15rem;
+    margin-left: 1.2rem;
+}
+
+/* POSTAGEM NO BLOG */
+.postagem{
+    padding: 1rem;
+    background-color: #fff;
+}
+.postagem-imagem{
+    width: 39rem;
+}
+.postagem-titulo{
+    color: #f7b600;
+}
+.postagem-data{
+    font-size: 0.8rem;
+    display:block;
+    padding-bottom: 0.8rem;
+}
+.postagem P{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+}
+.postagem a{
+    text-decoration: none;
+}
+.postagem a:visited, .postagem a:link{
+    color: #f7b600;
+}
+.postagem a:hover{
+    color: black;
+}
+/* CONTEÚDO LATERAL */
+.conteudo-lateral{
+    padding: 0.8rem;
+    margin-bottom: 0.7rem;
+    background-color: #fff;
+}
+.conteudo-lateral-titulo{
+    color: #565656;
+    background-color: #ccc;
+    padding: 0.3rem;
+}
+.texto-postagem-lateral{
+    font-size: 0.8rem;
+    padding: 0.3rem;
+}
+.conteudo-lateral a{
+    text-decoration: none;
+    display: block;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+}
+.conteudo-lateral a{
+    color: #f7b600;
+}
+
+.conteudo-lateral a:hover{
+    color: black;
+} 
+footer{
+    background-color: #ccc;
+    max-width: 57.5rem;
+    margin: .3rem auto;
+    text-align: center;
+    
+    
+}
